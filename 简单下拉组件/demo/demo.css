@@ -1,0 +1,115 @@
+/*----reset css start----*/
+body, div, dl, dt, dd, ul, ol, li,
+h1, h2, h3, h4, h5, h6, pre, code,
+form, fieldset, legend, input, button,
+textarea, p, blockquote, th, td {
+    margin: 0;
+    padding: 0;
+}
+
+i{
+    display: inline-block;
+}
+
+input{
+    outline:none
+}
+
+.float-left{
+    float: left;
+}
+
+.cursor{
+    cursor: pointer;
+}
+
+.clear-both {
+    clear: both;
+}
+
+.bg-drop_down_box {
+    width: 33px; height: 34px;
+    background: url('images/css_sprites.png') -140px -85px;
+}
+
+.nav-down{
+    width: 1000px;
+    margin: 0 auto;
+    padding: 25px 0 20px;
+}
+
+.nav-down input {
+    height: 32px;
+    color: #333;
+    font-size: 14px;
+    border: none;
+}
+
+/*language select start*/
+.nav-down .nav-input{
+    width: 114px;
+    padding-left: 10px;
+    float: left;
+    cursor: pointer;
+    border: 1px solid #e1e1e1;
+}
+
+.nav-select{
+    position: relative;
+    float: left;
+    width: 165px;
+    margin-right: 13px;
+}
+
+.nav-select ul{
+    list-style-type: none;
+}
+
+.nav-select ul li{
+    padding-left: 10px;
+    height: 18px;
+    line-height: 18px;
+}
+
+.nav-select ul li:hover{
+    color: #fff;
+    background-color: #009cff;
+}
+
+.information-select{
+    width: 157px;
+    margin: 0 auto;
+    position: absolute;
+    top: 33px;
+    font-size: 16px;
+    background-color: #fff;
+    opacity: 0.7;
+    display: none;
+    cursor: pointer;
+    border: 1px solid #e1e1e1;
+    z-index: 9;
+}
+
+.scroll{
+    height: 54px;
+    overflow: auto;
+}
+
+.open{
+    display: block;
+}
+
+.hidden{
+    display: none;
+}
+
+.rotate{
+    transform:rotate(-180deg);
+}
+
+
+.change-input{
+    margin: 8px 12px 10px 1px;
+    cursor: pointer;
+}
+/*language select end*/

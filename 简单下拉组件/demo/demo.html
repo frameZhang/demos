@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+    <title>简易下拉组件-demo</title>
+    <link rel="stylesheet" href="demo.css"/>
+</head>
+<body>
+<div class="nav-down booking">
+
+    <div class="nav-select bf-select js-booking-select">
+        <input class="nav-input bf-input" placeholder="往返" autocomplete="off" type="text"/>
+        <i class="bg-drop_down_box float-left"></i>
+
+        <ul class="information-select">
+            <li data-value="往返">往返</li>
+            <li data-value="单程">单程</li>
+        </ul>
+    </div>
+
+    <div class="nav-select from-select js-booking-select">
+        <input class="nav-input" placeholder="北京" autocomplete="off" type="text"/>
+        <i class="bg-drop_down_box float-left"></i>
+
+        <ul class="information-select scroll">
+            <li data-value="北京">北京</li>
+            <li data-value="上海">上海</li>
+            <li data-value="北京">北京</li>
+            <li data-value="上海">上海</li>
+            <li data-value="北京">北京</li>
+            <li data-value="上海">上海</li>
+        </ul>
+    </div>
+
+    <div class="bg-change change-input float-left"></div>
+
+    <div class="nav-select js-booking-select">
+        <input class="nav-input" placeholder="哈尔滨" autocomplete="off" type="text"/>
+        <i class="bg-drop_down_box float-left"></i>
+
+        <ul class="information-select scroll">
+            <li data-value="哈尔滨">哈尔滨</li>
+            <li data-value="上海">上海</li>
+            <li data-value="北京">北京</li>
+            <li data-value="上海">上海</li>
+            <li data-value="北京">北京</li>
+            <li data-value="上海">上海</li>
+        </ul>
+    </div>
+
+    <div class="nav-select js-booking-select">
+        <input class="nav-input" placeholder="去程: 2-3" autocomplete="off" type="text"/>
+        <i class="bg-drop_down_box float-left"></i>
+
+        <ul class="information-select">
+            <li data-value="0 Children">0 Children</li>
+            <li data-value="1 Children">1 Children</li>
+            <li data-value="2 Children">2 Children</li>
+        </ul>
+    </div>
+
+    <div class="nav-select back-date js-booking-select">
+        <input class="nav-input" placeholder="返程: 2-7" autocomplete="off" type="text"/>
+        <i class="bg-drop_down_box float-left"></i>
+
+        <ul class="information-select">
+            <li data-value="0 Children">0 Children</li>
+            <li data-value="1 Children">1 Children</li>
+            <li data-value="2 Children">2 Children</li>
+        </ul>
+    </div>
+</div>
+<script src="models/jQuery-1.8.3.js"></script>
+<script src="demo.js"></script>
+</body>
+</html>
