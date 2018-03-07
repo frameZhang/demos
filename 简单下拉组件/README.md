@@ -73,4 +73,4 @@
             open_select(js_booking_wrap);
         })
 
-如有错误，请指出；如有疑问，欢迎留言。
+如有错误，请指出；如有疑问，欢迎留言https://github.com/frameZhang/demos/issues。
